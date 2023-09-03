@@ -29,7 +29,7 @@
      "responses": ["En el siguiente link podrás encontrar los beneficios y formas de pago vigentes"]
     },
     {"tag": "ubicación_empresa",
-     "patterns": [ "Donde está ubicada la empresa", "Dirección de la empresa", "ubicación de la empresa", "dirección"],
+     "patterns": [ "Donde está ubicada la empresa", "Dirección de empresa", "ubicación de la empresa", "dirección de la compañia"],
      "responses": ["Estamos ubicados en la siguiente <dirección>", "Hablamos luego!", "Te esperamos en la siguiente dirección"]
     },
    {"tag": "agradecimientos",
