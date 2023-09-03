@@ -1,0 +1,43 @@
+
+{"intents": [
+    {"tag": "bienvenida",
+     "patterns": ["Hola", "¿Cómo estás?", "Hola, podrías ayudarme"],
+     "responses": ["Hola!, espero estés muy bien", "Hola, ¿Cómo estás?", "Hola, ¿como puedo ayudarte?"]
+    },
+    {"tag": "nombre",
+     "patterns": ["¿Cúal es tu nombre?", "¿Quién sos?", "¿Me podrías decir tú nombre?", "¿Como te llamas?"],
+     "responses": ["Mi nombre es SiloBot, un bot asistido por AI", "Yo soy SiloBot", "Me llamo SiloBot, un bot asistido por AI"]
+    },
+   {"tag": "contacto",
+     "patterns": ["contacto", "número de contacto", "número de teléfono", "número de mobile", "mobile", "número de whatsapp", "whatsapp"],
+     "responses": ["Podes contactarnos al siguiente <numero>", "Contactos al whatsapp <numero>"]
+    },
+    {"tag": "contacto_email",
+     "patterns": ["email", "dirección electrónica", "correo electrónico"],
+     "responses": ["Podes escribirnos al siguiente <correo electrónico>", "Escribe tus consultas al email <correo electrónico>"]
+    },
+   {"tag": "servicios",
+     "patterns": ["servicios", "Me podrás indicar los servicios", "¿Qué servicios ofrecen?", "Productos"],
+     "responses": ["La compañía ofrece los siguientes servicios: SiloView, SiloToken, SiloMetrix, información adicional la puedes encontrar en en el siguiente link", "En el siguiente link podrás encontrar los servicios ofrecidos por nuestra compañía."]
+    },
+    {"tag": "precios_servicios",
+     "patterns": ["Costo", "Precio por servicio", "Precios"],
+     "responses": ["Los costos dependen del servicios que contrates" , "Te contactaré con un asesor de ventas quien podrá brindarte mayor información"]
+    },
+   {"tag": "pagos",
+     "patterns": ["medios de pago", "tarjeta de crédito", "tarjetas", "cuotas", "Criptomonedas", "Silotokens"],
+     "responses": ["En el siguiente link podrás encontrar los beneficios y formas de pago vigentes"]
+    },
+    {"tag": "ubicación_empresa",
+     "patterns": [ "Donde está ubicada la empresa", "Dirección de la empresa", "ubicación de la empresa", "dirección"],
+     "responses": ["Estamos ubicados en la siguiente <dirección>", "Hablamos luego!", "Te esperamos en la siguiente dirección"]
+    },
+   {"tag": "agradecimientos",
+     "patterns": [ "Muchas gracias", "Gracias"],
+     "responses": ["Por nada!, cualquier otra consulta podes escribirme", "Fue un gusto poder atenderte.", "Un placer haberte asistido."]
+    },
+    {"tag": "despedida",
+     "patterns": [ "Chau", "Hasta luego!", "Adiós"],
+     "responses": ["Hasta luego!", "Hablamos luego!", "Esperamos nuevamente tú contacto!", "Que estés muy bien"]
+    }
+]}
