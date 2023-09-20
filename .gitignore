@@ -6,3 +6,9 @@
 
 # Varios
 **/Varios
+
+# Python settings
+__pycache__/
+
+# Output generated
+/flagged/
