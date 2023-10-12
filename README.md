@@ -60,7 +60,7 @@ a. *Continous bag of words model* (CBOW)
 b. *Skip-gram*
 
 ### 3. Redes Neuronales Recurrentes (RNN)
-Es un tipo de neurona con un estado interno (o memoria) de manera que la información del pasado influye en los resultados futuros.
+La red neuronal recurrente (ver figura 3) es un tipo de neurona con un estado interno (o memoria) de manera que la información del pasado influye en los resultados futuros.
 
 a. Se usa principalmente para resolver problemas de secuencia, en donde el valor anterior está relacionado con el valor futuro.
 b. Permite construir modelos cuyos vectores de entrada o salida no posean una dimensión fija.
@@ -68,7 +68,7 @@ b. Permite construir modelos cuyos vectores de entrada o salida no posean una di
 <p align = "center">
 <img alt = "imagen1" src = imgs\RNN.png style="width:500px; height:auto" style= "display: block; margin: 0 auto">
 </p>
-<p align = "center"> Figura 2.  Ejemplo de <i>embeddings [3] </i>. </p>
+<p align = "center"> Figura 2.  Red neuronal recurrente (RNN) [3]. </p>
 
 ### Trabajos prácticos desarrollados
 Durante la materia se desarrollaron los siguientes ejercicios:
