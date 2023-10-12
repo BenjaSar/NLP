@@ -74,9 +74,10 @@ La red neuronal recurrente (ver figura 3) es un tipo de neurona con un estado in
 Durante la materia se desarrollaron los siguientes ejercicios:
 1. Vectorización de documentos/corpus
 2. Desarrollo de un *bot* con *deep learning*
-3. Predicción de palabras
-4. Análisis de sentimientos
-5. *Bot* con preguntas y respuestas
+3. Embedding con Gensim
+4. Predicción de palabras
+5. Análisis de sentimientos
+6. *Bot* con preguntas y respuestas
 
 
 
