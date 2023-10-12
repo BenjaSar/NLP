@@ -32,8 +32,54 @@ Devolverá la raíz de una palabra.
 #### 1.5 Part of speech (POS) tagging
 Es el proceso de clasificar cada término en un texto en sus categorías gramaticales, etiquetándolos  por ejemplo como sustantivo (noun), verbo (verb), adjetivo (adj), etc.
 
-#### 1.6 Namee-entity recongnition (NER)
+#### 1.6 Name-entity recongnition (NER)
 Proceso de clasificar nombres de entidades en categorías predefinidas a las cuales pertenecen.
+
+
+### 2. Embeddings
+
+Un embedding (ver figura 2) es la representación numérica densa de tamaño fijo de un dato estructurado o no estructurado (mapear imágenes, entidades o palabras a vectores).
+
+<p align = "center">
+<img alt = "imagen1" src = imgs\embeddings.png style="width:500px; height:auto" style= "display: block; margin: 0 auto">
+</p>
+<p align = "center"> Figura 2.  Ejemplo de <i>embeddings [2] </i>. </p>
+
+### 2.1 ***Word embeddings***
+
+Las palabras de significado similar tendrán una representación similar como ***embeddings***.
+
+### 2.2 ***N-gram***
+
+Subsecuencia de N elementos de una secuencia dada.
+
+### Implementación de ***embeddings***
+Las principales técnicas de implementación de ***embeddings*** se mencionan a continuación:
+
+a. *Continous bag of words model* (CBOW)
+b. *Skip-gram*
+
+### 3. Redes Neuronales Recurrentes (RNN)
+Es un tipo de neurona con un estado interno (o memoria) de manera que la información del pasado influye en los resultados futuros.
+
+a. Se usa principalmente para resolver problemas de secuencia, en donde el valor anterior está relacionado con el valor futuro.
+b. Permite construir modelos cuyos vectores de entrada o salida no posean una dimensión fija.
+
+<p align = "center">
+<img alt = "imagen1" src = imgs\RNN.png style="width:500px; height:auto" style= "display: block; margin: 0 auto">
+</p>
+<p align = "center"> Figura 2.  Ejemplo de <i>embeddings [3] </i>. </p>
+
+### Trabajos prácticos desarrollados
+Durante la materia se desarrollaron los siguientes ejercicios:
+a. Vectorización de documentos/corpus
+b. Desarrollo de un *bot* con *deep learning*
+c. Predicción de palabras
+d. Análisis de sentimientos
+e. *Bot* con preguntas y respuestas
+
+
+
 
 
 ---
@@ -41,7 +87,9 @@ Proceso de clasificar nombres de entidades en categorías predefinidas a las cua
 [1] [Hashem, Istiaque & Islam, Minhajul & Haque, Shazid & Jabed, Zobaidul & Sakib, Nazmus. (2021). A Proposed Technique for Simultaneously Detecting DDoS and SQL Injection Attacks. International Journal of Computer Applications. 183. 50-57. 10.5120/ijca2021921428. 
 ](https://www.researchgate.net/figure/Tokenization-method-in-NLP-28_fig1_352658333.com)
 
+[2] [What are vector embeddings](https://www.pinecone.io/learn/vector-embeddings/)
 
+[3] [Deep Learning: Recurrent Neural Networks](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2Fdeeplearningbrasilia%2Fdeep-learning-recurrent-neural-networks-f9482a24d010&psig=AOvVaw0ouBXVqziBgHdARpdkqunV&ust=1697159929597000&source=images&cd=vfe&opi=89978449&ved=0CBMQjhxqFwoTCLCF08ir74EDFQAAAAAdAAAAABAH)
 
 
 ![footer](doc/LogoFooter.png)
