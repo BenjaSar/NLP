@@ -62,8 +62,8 @@ b. *Skip-gram*
 ### 3. Redes Neuronales Recurrentes (RNN)
 La red neuronal recurrente (ver figura 3) es un tipo de neurona con un estado interno (o memoria) de manera que la información del pasado influye en los resultados futuros.
 
-a. Se usa principalmente para resolver problemas de secuencia, en donde el valor anterior está relacionado con el valor futuro.
-b. Permite construir modelos cuyos vectores de entrada o salida no posean una dimensión fija.
+1. Se usa principalmente para resolver problemas de secuencia, en donde el valor anterior está relacionado con el valor futuro.
+2. Permite construir modelos cuyos vectores de entrada o salida no posean una dimensión fija.
 
 <p align = "center">
 <img alt = "imagen1" src = imgs\RNN.png style="width:500px; height:auto" style= "display: block; margin: 0 auto">
@@ -72,12 +72,11 @@ b. Permite construir modelos cuyos vectores de entrada o salida no posean una di
 
 ### Trabajos prácticos desarrollados
 Durante la materia se desarrollaron los siguientes ejercicios:
-a. Vectorización de documentos/corpus
-b. Desarrollo de un *bot* con *deep learning*
-c. Predicción de palabras
-d. Análisis de sentimientos
-e. *Bot* con preguntas y respuestas
-
+1. Vectorización de documentos/corpus
+2. Desarrollo de un *bot* con *deep learning*
+3. Predicción de palabras
+4. Análisis de sentimientos
+5. *Bot* con preguntas y respuestas
 
 
 
